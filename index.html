@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>Khaled Amir</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container">
         <header>
@@ -18,7 +20,7 @@
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="#">About me</a></li>
+                    <li><a href="#about">About me</a></li>
                     <li><a href="#">Certificates</a></li>
                     <li><a href="#">My work</a></li>
                 </ul>
@@ -31,6 +33,77 @@
                 </a>
             </div>
         </header>
+        <section class="intro">
+            <div class="textBox">
+                <div class="content">
+                    <h1>I'm <span>Khaled Amir</span></h1>
+                    <p>A front-end developer.</p>
+                    <div class="buttonBox">
+                        <a href="#">
+                            <button class="btn">Download CV</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="imgBox">
+                <img src="./assets/personal.jpg" alt="Personal Photo">
+            </div>
+        </section>
+        <section class="about" id="about">
+            <h1 class="sectionHeading">about me</h1>
+            <div class="about-content">
+                <div class="textBox">
+                    <h3>Information about me</h3>
+                    <p>I am khaled amir, an egyptian front-end developer.</p>
+                    <p>I built a lot of websites that you can see in this website or in my GitHub account.</p>
+                    <p>I am interested in reading and coding and entrepreneurship.</p>
+                    <p>And I like learning something new daily.</p>
+                    <h4>I have skills in:</h4>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                        <li>Bootstracp</li>
+                        <li>Version Control</li>
+                        <li>Basics of Reactjs</li>
+                    </ul>
+                </div>
+                <div class="imgBox">
+                    <img src="./assets/personal2.jpg" alt="Personal Photo">
+                </div>
+            </div>
+        </section>
+        <section class="certificates">
+            <h1 class="sectionHeading">
+                My Certificates
+            </h1>
+            <div class="certificates-container">
+                <img src="./assets/certificates/english-1.jpg" alt="English Certificate" />
+                <img src="./assets/certificates/english-2.jpg" alt="English Certificate" />
+                <img src="./assets/certificates/english-3.jpg" alt="English Certificate" />
+                <img src="./assets/certificates/english-4.jpg" alt="English Certificate" />
+                <img src="./assets/certificates/icdl-1.jpg" alt="ICDL: Computer Basics" />
+                <img src="./assets/certificates/icdl-2.jpg" alt="ICDL: Microsoft Word" />
+                <img src="./assets/certificates/icdl-3.jpg" alt="ICDL: Microsoft Excel" />
+                <img src="./assets/certificates/icdl-4.jpg" alt="ICDL: E-Mails and Microsoft Outlook" />
+                <img src="./assets/certificates/icdl-full.jpg" alt="ICDL: Full Specialization Certificate" />
+                <img src="./assets/certificates/learn-how-to-learn.jpg" alt="Learn How To Learn Certificate" />
+                <img src="./assets/certificates/work-smarter-not-harder.jpg"
+                    alt="Work Smarter Not Harder Course Certificate" />
+                <img src="./assets/certificates/js.jpg" alt="Javascript Course Certificate" />
+                <img src="./assets/certificates/python.jpg" alt="Python course certificate" />
+                <img src="./assets/certificates/meta-1.jpg" alt="Front end certificate one from meta" />
+                <img src="./assets/certificates/meta-2.jpg" alt="Front end certificate two from meta" />
+                <img src="./assets/certificates/meta-3.jpg" alt="Front end certificate three from meta" />
+                <img src="./assets/certificates/meta-4.jpg" alt="Front end certificate four from meta" />
+                <img src="./assets/certificates/meta-5.jpg" alt="Front end certificate five from meta" />
+            </div>
+            <div class="buttonContainer">
+                <button id="moreOrLess" class="btn" onclick="showCertificates()">More</button>
+            </div>
+        </section>
     </div>
+    <script src="main.js"></script>
 </body>
+
 </html>
